@@ -19,10 +19,9 @@ If you have seen Lisa, or have been in contact, please contact her sister at 919
   {% endfor %}
 </ul>
 
-![][flyer]
 
+<img src="/i/noodlesflyer.jpg" alt=" " style="max-width: 100%" />
 
-[flyer]: /i/noodlesflyer.jpg
 
 
 
