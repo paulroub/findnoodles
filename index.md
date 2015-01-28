@@ -1,36 +1,17 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Find Noodles
+tagline: Lisa "Noodles from Jupiter" Hayden, missing 1/27/2015, Ft. Lauderdale, FL
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+Lisa "Noodles From Jupiter" Hayden was last seen in Downtown Ft. Lauderdale, at Revolution Live and the Poor House, on Saturday, January 24th, 2015.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+She was wearing blue jeans, a peach sleeveless shirt, silver glitter sneakers, and possibly a black jacket.
 
-## Update Author Attributes
+Lisa has reddish-brown hair, is 5'6" and 101 lbs, and drives a faded blue 2003 Hyundai w/stickers on the hood and bumper. Florida license plate: 303IEQ.
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+If you have seen Lisa, or have been in contact, please contact her sister at 919-434-3910, or the Ft. Lauderdale Police Department at 954-828-5700.
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -38,9 +19,11 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
+![][flyer]
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+
+[flyer]: /i/noodlesflyer.jpg
+
+
 
 
