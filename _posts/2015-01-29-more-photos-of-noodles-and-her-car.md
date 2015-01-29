@@ -17,4 +17,8 @@ The car is distinctive - please share these photos of Lisa and her car, and plea
 
 <img src="/i/detail.jpg" alt="One of the glitter decorations, close-up" class="photo" />
 
+(source: [Ed Ethridge, Facebook][ee])
+
 [flpd]: http://www.flpd.org/ "Ft. Lauderdale, FL Police Department"
+[ee]: https://www.facebook.com/ed.ethridge/posts/10153527544407892
+
