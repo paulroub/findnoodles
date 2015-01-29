@@ -9,7 +9,7 @@ Lisa "Noodles From Jupiter" Hayden was last seen in Downtown Ft. Lauderdale, at 
 
 She was wearing blue jeans, a peach sleeveless shirt, silver glitter sneakers, and possibly a black jacket.
 
-Lisa has reddish-brown hair, is 5'6" and 101 lbs, and drives a faded blue 2003 Hyundai w/stickers on the hood and bumper. Florida license plate: 303IEQ.
+Lisa has reddish-brown hair, is 5'6" and 101 lbs, and drives a faded blue 2003 Hyundai with stickers on the hood and bumper. Florida license plate: 303IEQ.
 
 If you have seen Lisa, or have been in contact, please contact her sister at 919-434-3910, or the Ft. Lauderdale Police Department at 954-828-5700.
 
