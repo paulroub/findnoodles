@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Find Noodles
-tagline: Lisa "Noodles from Jupiter" Hayden, missing 1/27/2015, Ft. Lauderdale, FL
+tagline: Lisa "Noodles on Jupiter" Hayden, missing 1/27/2015, Ft. Lauderdale, FL
 ---
 {% include JB/setup %}
 
-Lisa "Noodles From Jupiter" Hayden was last seen in Downtown Ft. Lauderdale, at Revolution Live and the Poor House, on Saturday, January 24th, 2015.
+Lisa "Noodles on Jupiter" Hayden was last seen in Downtown Ft. Lauderdale, at Revolution Live and the Poor House, on Saturday, January 24th, 2015.
 
 She was wearing blue jeans, a peach sleeveless shirt, silver glitter sneakers, and possibly a black jacket.
 
