@@ -2,6 +2,7 @@
 layout: post
 title: "Sun Sentinel on the Rally for Noodles"
 description: "Relatives and friends of missing woman rally in Fort Lauderdale"
+socialimage: "http://www.trbimg.com/img-54cc1516/turbine/fl-lauderdale-missing-woman-update-20150130-001/637/637x358"
 category: 
 tags: []
 ---

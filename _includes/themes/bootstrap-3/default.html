@@ -34,23 +34,37 @@
 
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
-    <meta property="og:title" content="Find Noodles" />
-    <meta property="og:description" content="Lisa &quot;Noodles on Jupiter&quot; Hayden, missing 1/27/2015. If you have seen Lisa, or have been in contact, please contact her sister at 919-434-3910, or the Ft. Lauderdale Police Department at 954-828-5700." />
+    {% assign deftitle = 'Find Lisa &quot;Noodles&quote; Hayden' %}
+    {% assign defimage = 'http://findnoodles.com/i/noodlesflyer.jpg' %}
+    {% assign defdesc = 'Lisa &quot;Noodles&quot; Hayden, missing since 1/24/2015. If you have seen or heard from Lisa, please contact the Ft. Lauderdale Police Department at 954-828-5700.' %}
 
-    {% if page.socialimage %}
+    {% if page.title && page.socialimage != '' %}
       <meta name="twitter:image:src" content="{{ page.socialimage }}">
       <meta property="og:image" content="{{ page.socialimage }}" />
     {% else %}
-      <meta name="twitter:image:src" content="http://findnoodles.com/i/noodlesflyer.jpg">
-      <meta property="og:image" content="http://findnoodles.com/i/noodlesflyer.jpg" />
+      <meta name="twitter:image:src" content="{{ defimage }}">
+      <meta property="og:image" content="{{ defimage }}" />
+    {% endif %}
+
+    {% if page.title && page.title != '' %}
+      <meta name="twitter:title" content="{{ page.title }}">
+      <meta property="og:title" content="{{ page.title }}" />
+    {% else %}
+      <meta name="twitter:title" content="{{ deftitle }}">
+      <meta property="og:title" content="{{ deftitle }}" />
+    {% endif %}
+
+    {% if page.description && page.description != '' %}
+      <meta property="og:description" content="{{ page.description }}" />
+      <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+      <meta property="og:description" content="{{ defdesc }}" />
+      <meta name="twitter:description" content="{{ defdesc }}">
     {% endif %}
 
     <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:creator" content="@paulroub">
-<meta name="twitter:title" content="Find Lisa 'Noodles on Jupiter' Hayden">
-<meta name="twitter:description" content="Lisa &quot;Noodles on Jupiter&quot; Hayden, missing 1/27/2015. If you have seen Lisa, or have been in contact, please contact the Ft. Lauderdale Police Department at 954-828-5700.">
+    <meta name="twitter:creator" content="@paulroub">
 
   </head>
 

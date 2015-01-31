@@ -12,3 +12,5 @@ Thumbs.db
 **/_site
 **/*.css.map
 assets/themes/bootstrap-3/css/style.css
+findnoodles.sublime-project
+findnoodles.sublime-workspace
