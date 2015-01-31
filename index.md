@@ -11,7 +11,7 @@ Lisa "Noodles" Hayden was last seen in Downtown Ft. Lauderdale, at Revolution Li
 
 She was wearing blue jeans, a peach sleeveless shirt, silver glitter sneakers, and possibly a black jacket.
 
-<img src="/i/hood-1x.jpg" class="evenimage" alt="Lisa's glitter-stickered blue Hyundai" srcset="/i/hood-1x.jpg, /i/hood.jpg 2x" width="360" />
+<img src="/i/hood-1x.jpg" class="evenimage" alt="Lisa's glitter-stickered blue Hyundai" srcset="/i/hood-1x.jpg, /i/hood.jpg 2x" width="320" />
 
 Lisa has reddish-brown hair, is 5'6" and 101 lbs, and drives a faded blue 2003 Hyundai with stickers on the hood and bumper. Florida license plate: 303IEQ.
 
