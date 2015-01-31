@@ -38,14 +38,20 @@
 
     <meta property="og:title" content="Find Noodles" />
     <meta property="og:description" content="Lisa &quot;Noodles on Jupiter&quot; Hayden, missing 1/27/2015. If you have seen Lisa, or have been in contact, please contact her sister at 919-434-3910, or the Ft. Lauderdale Police Department at 954-828-5700." />
-	<meta property="og:image" content="http://findnoodles.com/i/noodlesflyer.jpg" />
+
+    {% if page.socialimage %}
+      <meta name="twitter:image:src" content="{{ page.socialimage }}">
+      <meta property="og:image" content="{{ page.socialimage }}" />
+    {% else %}
+      <meta name="twitter:image:src" content="http://findnoodles.com/i/noodlesflyer.jpg">
+      <meta property="og:image" content="http://findnoodles.com/i/noodlesflyer.jpg" />
+    {% endif %}
 	<meta property="og:url" content="http://findnoodles.com{{ page.url }}" />
 
     <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:creator" content="@paulroub">
 <meta name="twitter:title" content="Find Lisa 'Noodles on Jupiter' Hayden">
-<meta name="twitter:description" content="Lisa &quot;Noodles on Jupiter&quot; Hayden, missing 1/27/2015. If you have seen Lisa, or have been in contact, please contact her sister at 919-434-3910, or the Ft. Lauderdale Police Department at 954-828-5700.">
-<meta name="twitter:image:src" content="http://findnoodles.com/i/noodlesflyer.jpg">
+<meta name="twitter:description" content="Lisa &quot;Noodles on Jupiter&quot; Hayden, missing 1/27/2015. If you have seen Lisa, or have been in contact, please contact the Ft. Lauderdale Police Department at 954-828-5700.">
 
   </head>
 

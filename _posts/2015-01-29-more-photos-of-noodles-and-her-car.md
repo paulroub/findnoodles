@@ -2,6 +2,7 @@
 layout: post
 title: "More Photos of Noodles and her Car"
 description: ""
+socialimage: http://findnoodles.com/i/hood.jpg
 category: 
 tags: []
 ---
