@@ -106,7 +106,20 @@
 
     <div id="footer">
       <div class="container">
+<div id="fb-root"></div>
+<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"></div>      
+
+<script async>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=328662967229358&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
       </div>
+
     </div>
 
     {% include JB/analytics %}
