@@ -25,9 +25,6 @@ If you have seen Lisa, or have been in contact, please contact the Ft. Lauderdal
   {% endfor %}
 </ul>
 
-
-<img src="/i/noodlesflyer.jpg" alt=" " style="max-width: 100%" />
-
 <script src="/j/picturefill.min.js" async></script>
 
 
