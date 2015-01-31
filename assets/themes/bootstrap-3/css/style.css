@@ -78,7 +78,25 @@ h1, h2, h3, h4 {
   border: 1px solid #4c964d;
   color: #FFF; }
 
-  .photo {
-    max-width: 100%;
-    margin: 1em 0;
+.photo {
+  max-width: 100%;
+  margin: 1em 0;
+}
+
+.evenimage, .oddimage {
+
+}
+
+@media only screen and (min-width: 60em) {
+  .evenimage {
+    max-width: 30em;
+    float: right;
+    margin-left: 1em;
   }
+
+  .oddimage {
+    max-width: 30em;
+    float: left;
+    margin-right: 1em;
+  }
+}

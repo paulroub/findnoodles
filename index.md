@@ -1,17 +1,23 @@
 ---
 layout: page
 title: Find Noodles
-tagline: Lisa "Noodles on Jupiter" Hayden, missing 1/27/2015, Ft. Lauderdale, FL
+tagline: Lisa "Noodles" Hayden, missing 1/27/2015, Ft. Lauderdale, FL
 ---
 {% include JB/setup %}
 
-Lisa "Noodles on Jupiter" Hayden was last seen in Downtown Ft. Lauderdale, at Revolution Live and the Poor House, on Saturday, January 24th, 2015.
+<img src="/i/lisa-1x.jpg" class="oddimage" alt="Lisa &quot;Noodles&quot; Hayden" srcset="/i/lisa-1x.jpg, /i/lisa.jpg 2x" width="294" />
+
+Lisa "Noodles" Hayden was last seen in Downtown Ft. Lauderdale, at Revolution Live and the Poor House, on Saturday, January 24th, 2015.
 
 She was wearing blue jeans, a peach sleeveless shirt, silver glitter sneakers, and possibly a black jacket.
 
+<img src="/i/hood-1x.jpg" class="evenimage" alt="Lisa's glitter-stickered blue Hyundai" srcset="/i/hood-1x.jpg, /i/hood.jpg 2x" width="360" />
+
 Lisa has reddish-brown hair, is 5'6" and 101 lbs, and drives a faded blue 2003 Hyundai with stickers on the hood and bumper. Florida license plate: 303IEQ.
 
-If you have seen Lisa, or have been in contact, please contact her sister at 919-434-3910, or the Ft. Lauderdale Police Department at 954-828-5700.
+If you have seen Lisa, or have been in contact, please contact the Ft. Lauderdale Police Department at <a href="tel:954-828-5700">954-828-5700</a>.
+
+<p class="clearfix"></p>
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -22,7 +28,7 @@ If you have seen Lisa, or have been in contact, please contact her sister at 919
 
 <img src="/i/noodlesflyer.jpg" alt=" " style="max-width: 100%" />
 
-
+<script src="/j/picturefill.min.js" async></script>
 
 
 
