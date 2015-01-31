@@ -11,3 +11,4 @@ Thumbs.db
 .sass-cache
 **/_site
 **/*.css.map
+assets/themes/bootstrap-3/css/style.css
