@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "More Photos of Noodles and her Car"
-description: "Lisa &quot;Noodles&quot; Hayden, missing since 1/27/2015, and her glitter-decal-decorated blue Hyundai"
+description: "Lisa &quot;Noodles&quot; Hayden, missing since 1/24/2015, and her glitter-decal-decorated blue Hyundai"
 socialimage: http://findnoodles.com/i/hood.jpg
 category: 
 tags: []
