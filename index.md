@@ -15,6 +15,8 @@ She was wearing blue jeans, a peach sleeveless shirt, silver glitter sneakers, a
 
 Lisa has reddish-brown hair, is 5'6" and 101 lbs, and drives a faded blue 2003 Hyundai with stickers on the hood and bumper. Florida license plate: 303IEQ.
 
+<img src="/i/lisa2-1x.jpg" class="oddimage" alt="Lisa &quot;Noodles&quot; Hayden" srcset="/i/lisa2-1x.jpg, /i/lisa2-2x.jpg 2x" width="237" />
+
 If you have seen Lisa, or have been in contact, please contact the Ft. Lauderdale Police Department at <a href="tel:954-828-5700">954-828-5700</a>.
 
 <p class="clearfix"></p>
