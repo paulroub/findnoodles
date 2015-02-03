@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Find Noodles
-tagline: Lisa "Noodles" Hayden, missing since 1/24/2015, Ft. Lauderdale, FL
+tagline: Lisa "Noodles" Hayden, missing since 1/24/2015, from Ft. Lauderdale, FL
 ---
 {% include JB/setup %}
 

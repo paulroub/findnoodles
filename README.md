@@ -7,7 +7,7 @@ Lisa has reddish-brown hair, is 5'6" and 101 lbs, and drives a faded blue 2003 H
 
 If you have seen Lisa, or have been in contact, please contact the Ft. Lauderdale Police Department at <a href="tel:954-828-5700">954-828-5700</a>.
 
-Pictures, news, more info at: [findnoodles.com](http://findnoodles.com/)
+Pictures, news, donation information, and at: [findnoodles.com](http://findnoodles.com/)
 
 
 
