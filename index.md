@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Find Noodles
+title: Find Lisa "Noodles" Hayden-Gordon
 tagline: Lisa "Noodles" Hayden-Gordon, missing since 1/24/2015, from Ft. Lauderdale, FL
 ---
 {% include JB/setup %}
