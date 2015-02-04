@@ -35,16 +35,16 @@
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
 
-    {% assign deftitle = 'Find Lisa &quot;Noodles&quote; Hayden' %}
+    {% assign deftitle = 'Find Lisa &quot;Noodles&quot; Hayden-Gordon' %}
     {% assign defimage = 'http://findnoodles.com/i/noodlesflyer.jpg' %}
-    {% assign defdesc = 'Lisa &quot;Noodles&quot; Hayden, missing since 1/24/2015. If you have seen or heard from Lisa, please contact the Ft. Lauderdale Police Department at 954-828-5700.' %}
+    {% assign defdesc = 'Lisa &quot;Noodles&quot; Hayden-Gordon, missing since 1/24/2015. If you have seen or heard from Lisa, please contact the Ft. Lauderdale Police Department at 954-828-5700.' %}
 
     {% if page.title && page.socialimage != '' %}
       <meta name="twitter:image:src" content="{{ page.socialimage }}">
-      <meta property="og:image" content="{{ page.socialimage }}" />
+      <meta property="og:image:url" content="{{ page.socialimage }}" />
     {% else %}
       <meta name="twitter:image:src" content="{{ defimage }}">
-      <meta property="og:image" content="{{ defimage }}" />
+      <meta property="og:image:url" content="{{ defimage }}" />
     {% endif %}
 
     {% if page.title && page.title != '' %}
