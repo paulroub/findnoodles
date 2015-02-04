@@ -37,7 +37,7 @@
 
     {% assign deftitle = "Find Lisa 'Noodles' Hayden-Gordon" %}
     {% assign defimage = 'http://findnoodles.com/i/noodlesflyer.jpg' %}
-    {% assign defdesc = "Lisa 'Noodles' Hayden-Gordon, missing since 1/24/2015. If you have seen or heard from Lisa, please contact the Ft. Lauderdale Police Department at 954-828-5700. %}
+    {% assign defdesc = "Lisa 'Noodles' Hayden-Gordon, missing since 1/24/2015. If you have seen or heard from Lisa, please contact the Ft. Lauderdale Police Department at 954-828-5700." %} 
 
     {% if page.socialimage && page.socialimage != '' %}
       <meta name="twitter:image:src" content="{{ page.socialimage }}">
@@ -48,19 +48,20 @@
     {% endif %}
 
     {% if page.title && page.title != '' %}
-      <meta name="twitter:title" content="{{ page.title }}">
-      <meta property="og:title" content="{{ page.title }}" />
+      <meta name="twitter:title" content="{{ page.title | escape }}">
+      <meta property="og:title" content="{{ page.title | escape }}" />
     {% else %}
-      <meta name="twitter:title" content="{{ deftitle }}">
-      <meta property="og:title" content="{{ deftitle }}" />
-    {% endif %}
+      <meta name="twitter:title" content="{{ deftitle | escape }}">
+      <meta property="og:title" content="{{ deftitle | escape }}" />
+	  {% endif %}
+
 
     {% if page.description && page.description != '' %}
-      <meta property="og:description" content="{{ page.description }}" />
-      <meta name="twitter:description" content="{{ page.description }}">
+      <meta property="og:description" content="{{ page.description | escape }}" />
+      <meta name="twitter:description" content="{{ page.description | escape }}">
     {% else %}
-      <meta property="og:description" content="{{ defdesc }}" />
-      <meta name="twitter:description" content="{{ defdesc }}">
+      <meta property="og:description" content="{{ defdesc | escape }}" />
+      <meta name="twitter:description" content="{{ defdesc | escape }}">
     {% endif %}
 
     <meta name="twitter:card" content="summary_large_image">
