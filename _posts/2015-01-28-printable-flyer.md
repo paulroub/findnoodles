@@ -7,6 +7,8 @@ tags: []
 ---
 {% include JB/setup %}
 
-Please download and print [this flyer (PDF)][flyer], and post copies far and wide.
+**Update**: please use the [updated flyer][newflyer] instead.
+
 
 [flyer]: /i/noodlesflyer.pdf "Missing flyer (PDF) for Lisa Hayden"
+[newflyer]: /2015/02/05/updated-missing-lisa-noodles-hayden-flyer/ "Updated 'Missing' Flyer"
