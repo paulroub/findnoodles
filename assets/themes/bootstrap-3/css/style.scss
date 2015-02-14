@@ -91,6 +91,76 @@ h1, h2, h3, h4 {
   display: none;
 }
 
+@media only screen and (max-width: 479px)
+{
+  .navbar {
+    background-image: url(/i/header-320.jpg);
+    background-repeat: no-repeat;
+    padding-top: 119px;
+    background-size: 320px 118px;
+  }
+
+  .navbar, .container {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi) {
+    .navbar {
+      background-image: url(/i/header-640.jpg);
+    }
+  }
+}
+
+@media only screen and (min-width: 480px)
+{
+  .navbar {
+    background-image: url(/i/header-480.jpg);
+    background-repeat: no-repeat;
+    padding-top: 179px;
+    background-size: 480px 178px;
+  }
+
+  .navbar, .container {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi) {
+    .navbar {
+      background-image: url(/i/header-960.jpg);
+    }
+  }
+}
+
+
+@media only screen and (min-width: 1024px)
+{
+  .navbar {
+    background-image: url(/i/header-1x.jpg);
+    background-repeat: no-repeat;
+    padding-top: 380px;
+    background-size: 1024px 379px;
+  }
+
+  .navbar, .container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi) {
+    .navbar {
+      background-image: url(/i/header-2x.jpg);
+    }
+  }
+}
+
 @media only screen and (min-width: 60em) {
   .evenimage {
     max-width: 30em;
