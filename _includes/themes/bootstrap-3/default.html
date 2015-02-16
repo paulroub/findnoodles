@@ -64,6 +64,8 @@
       <meta name="twitter:description" content="{{ defdesc | escape }}">
     {% endif %}
 
+    {% capture pageurl %}http://findnoodles.com{{ page.url }}{% endcapture %}
+
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@paulroub">
 
@@ -107,18 +109,9 @@
 
     <div id="footer">
       <div class="container">
-<div id="fb-root"></div>
-<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"></div>      
-
-<script async>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=328662967229358&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
+        Share: 
+        <a class="sharebutton" href="https://www.facebook.com/sharer/sharer.php?u={{ pageurl | url_encode }}" title="Share this page on Facebook"><img src="/i/facebook-57.png" alt="Share on Facebook" width="57" srcset="/i/facebook-57.png, /i/facebook-114.png 2x"  /></a>
+        <a class="sharebutton" href="https://twitter.com/intent/tweet/?text=Find%20Lisa%20%22Noodles%22%20Hayden%20%23FindNoodles&amp;via=findnoodles&amp;url={{ pageurl | url_encode }}" title="Share this page on Twitter"><img src="/i/twitter-57.png" alt="Share on Twitter" width="57" srcset="/i/twitter-57.png, /i/twitter-114.png 2x"  /></a>
       </div>
 
     </div>
