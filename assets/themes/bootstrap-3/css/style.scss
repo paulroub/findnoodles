@@ -1,86 +1,100 @@
-/* Custom container */
+// Custom container
 
-/* Replaced with normal container and standard footer */
-/*.container-narrow {
-  margin: 0 auto;
-  max-width: 700px; }
+// Replaced with normal container and standard footer
+// .container-narrow {
+//  margin: 0 auto;
+//  max-width: 700px; }
+//
+//.container-narrow > hr {
+//  margin: 30px 0; }
+//
 
-.container-narrow > hr {
-  margin: 30px 0; }
-*/
+// Replaced with standard BS3 Navbar
+//.navbar .nav {
+//  float: right; }
 
-/* Replaced with standard BS3 Navbar */
-/*.navbar .nav {
-  float: right; }*/
-
-/* Jekyll Bootstrap Colors */
+// Jekyll Bootstrap Colors
 h1, h2, h3, h4 {
   color: #f22430;
 }
+
 #footer {
   background-color: #fdcd60;
+  height: auto;
 }
 
 
-
-/* posts index */
+// posts index
 .post > h3.title {
+  padding-top: 10px; 
   position: relative;
-  padding-top: 10px; }
 
-.post > h3.title span.date {
-  position: absolute;
-  right: 0;
-  font-size: 0.9em; }
+  span.date {
+    font-size: .9em; 
+    position: absolute;
+    right: 0;
+  }
+}
+
 
 .post > .more {
   margin: 10px 0;
   text-align: left; }
 
-/* post-full*/
+// post-full
 .post-full .date {
+  font-weight: bold; 
   margin-bottom: 20px;
-  font-weight: bold; }
+}
 
-/* tag_box */
+// tag_box
 .tag_box {
   list-style: none;
   margin: 0;
-  overflow: hidden; }
+  overflow: hidden; 
 
-.tag_box li {
-  line-height: 28px; }
+  li {
+    line-height: 28px; 
 
-.tag_box li i {
-  opacity: 0.9; }
+    i {
+      opacity: .9; 
+    }
+  }
 
-.tag_box.inline li {
-  float: left; }
+  &.inline li {
+    float: left; }
 
-.tag_box a {
-  padding: 3px 6px;
-  margin: 2px;
-  background: #eee;
-  color: #555;
-  border-radius: 3px;
-  text-decoration: none;
-  border: 1px dashed #cccccc; }
+  a {
+    background: #eee;
+    border: 1px dashed #ccc; 
+    border-radius: 3px;
+    color: #555;
+    margin: 2px;
+    padding: 3px 6px;
+    text-decoration: none;
 
-.tag_box a span {
-  vertical-align: super;
-  font-size: 0.8em; }
+    span {
+      font-size: .8em; 
+      vertical-align: super;
+    }
 
-.tag_box a:hover {
-  background-color: #e5e5e5; }
+    &:hover {
+      background-color: #e5e5e5; 
+    }
 
-.tag_box a.active {
-  background: #57A957;
-  border: 1px solid #4c964d;
-  color: #FFF; }
+    &.active {
+      background: #57a957;
+      border: 1px solid #4c964d;
+      color: #fff; 
+    }
+  }
+
+
+}
 
 .photo {
-  max-width: 100%;
   margin: 1em 0;
+  max-width: 100%;
 }
 
 .evenimage, .oddimage {
@@ -91,35 +105,32 @@ h1, h2, h3, h4 {
   display: none;
 }
 
-#footer {
-  height: auto;
-}
 
 .sharebutton {
+  display: inline-block;
   margin: 5px;
   padding: 0;
-  display: inline-block;
 }
 
 @media only screen and (max-width: 479px)
 {
   .navbar {
-    background-image: url(/i/header-320.jpg);
+    background-image: url('/i/header-320.jpg');
     background-repeat: no-repeat;
-    padding-top: 119px;
     background-size: 320px 118px;
+    padding-top: 119px;
   }
 
   .navbar, .container {
-    width: 320px;
     margin-left: auto;
     margin-right: auto;
+    width: 320px;
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), 
+  @media (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi) {
     .navbar {
-      background-image: url(/i/header-640.jpg);
+      background-image: url('/i/header-640.jpg');
     }
   }
 }
@@ -127,22 +138,22 @@ h1, h2, h3, h4 {
 @media only screen and (min-width: 480px)
 {
   .navbar {
-    background-image: url(/i/header-480.jpg);
+    background-image: url('/i/header-480.jpg');
     background-repeat: no-repeat;
-    padding-top: 179px;
     background-size: 480px 178px;
+    padding-top: 179px;
   }
 
   .navbar, .container {
-    width: 480px;
     margin-left: auto;
     margin-right: auto;
+    width: 480px;
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), 
+  @media (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi) {
     .navbar {
-      background-image: url(/i/header-960.jpg);
+      background-image: url('/i/header-960.jpg');
     }
   }
 }
@@ -151,37 +162,37 @@ h1, h2, h3, h4 {
 @media only screen and (min-width: 1024px)
 {
   .navbar {
-    background-image: url(/i/header-1x.jpg);
+    background-image: url('/i/header-1x.jpg');
     background-repeat: no-repeat;
-    padding-top: 380px;
     background-size: 1024px 379px;
+    padding-top: 380px;
   }
 
   .navbar, .container {
-    width: 1024px;
     margin-left: auto;
     margin-right: auto;
+    width: 1024px;
   }
 
-  @media (-webkit-min-device-pixel-ratio: 2), 
+  @media (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi) {
     .navbar {
-      background-image: url(/i/header-2x.jpg);
+      background-image: url('/i/header-2x.jpg');
     }
   }
 }
 
 @media only screen and (min-width: 60em) {
   .evenimage {
-    max-width: 30em;
     float: right;
     margin-left: 1em;
+    max-width: 30em;
   }
 
   .oddimage {
-    max-width: 30em;
     float: left;
     margin-right: 1em;
+    max-width: 30em;
   }
 }
 
@@ -190,6 +201,6 @@ h1, h2, h3, h4 {
 
   blockquote {
     float: left;
-	max-width: 40em;
+    max-width: 40em;
   }
-  }
+}

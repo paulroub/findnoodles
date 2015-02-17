@@ -1,0 +1,13 @@
+scss_files: './assets/themes/bootstrap-3/css/*.scss'
+
+exclude: '_site/**/*.scss'
+
+linters:
+  SingleLinePerSelector:
+    enabled: false
+  IdSelector:
+    enabled: false
+  SelectorFormat:
+    enabled: false
+  QualifyingElement:
+    enabled: false
