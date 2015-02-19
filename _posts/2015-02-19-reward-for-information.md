@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Reward for Information on Lisa "Noodles" Hayden
+socialimage: http://www.findnoodles.com/i/crimestoppers.png
 description: Crime Stoppers are offering up to $3,000 for information leading to the arrest of the person(s) responsible for the disappearance of Lisa "Noodles" Hayden
 category: 
 tags: []
