@@ -5,7 +5,7 @@ tagline: Lisa "Noodles" Hayden-Gordon, missing since 1/24/2015, from Ft. Lauderd
 ---
 {% include JB/setup %}
 
-<img src="/i/lisa-1x.jpg" class="oddimage" alt="Lisa &quot;Noodles&quot; Hayden" srcset="/i/lisa-1x.jpg, /i/lisa.jpg 2x" width="294" />
+<a href="/2015/02/19/reward-for-information/" title="Reward for Information on Lisa 'Noodles' Hayden"><img src="/i/crimestoppers.png" class="oddimage" alt="Lisa &quot;Noodles&quot; Hayden" /></a>
 
 Lisa "Noodles" Hayden was last seen in Downtown Ft. Lauderdale, at Revolution Live and the Poor House, on Saturday, January 24th, 2015.
 
