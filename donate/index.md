@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "Donate"
-group: navigation
 description: "Aid efforts to find Lisa, and support her living expenses while she's missing."
 ---
 {% include JB/setup %}
