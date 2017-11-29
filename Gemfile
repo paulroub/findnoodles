@@ -4,4 +4,6 @@ source "https://rubygems.org"
 # gem "rails"
 gem "jekyll"
 gem "sass"
-gem "scss-lint"
+gem "scss_lint"
+gem "redcarpet"
+
