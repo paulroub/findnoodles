@@ -5,7 +5,7 @@ socialimage: http://media3.s-nbcnews.com/j/newscms/2015_07/882801/lisa_template_
 category: 
 tags: []
 ---
-{% include JB/setup %}
+
 
 [![Missing - Lisa Hayden][img]][nbc]
 

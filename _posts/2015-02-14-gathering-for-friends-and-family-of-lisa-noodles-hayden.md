@@ -4,7 +4,7 @@ title: Gathering For Friends And Family Of Lisa "Noodles" Hayden
 date: 2015-02-14 10:09
 xfilename: 2015-02-14-gathering-for-friends-and-family-of-lisa-noodles-hayden.markdown
 ---
-{% include JB/setup %}
+
 
 Sunday, February 15th at 2pm. A chance to meet Lisa's family, hug friends, and get some flyers out.
 

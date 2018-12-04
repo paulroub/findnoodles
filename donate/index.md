@@ -3,7 +3,7 @@ layout: page
 title: "Donate"
 description: "Aid efforts to find Lisa, and support her living expenses while she's missing."
 ---
-{% include JB/setup %}
+
 
 
 > From the donation page: "This fund has been created on behalf of the Hayden Family. Funds raised here are to aid efforts to find Lisa as well support her living expenses while missing. 

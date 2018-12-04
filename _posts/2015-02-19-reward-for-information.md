@@ -6,7 +6,7 @@ description: Crime Stoppers are offering up to $3,000 for information leading to
 category: 
 tags: []
 ---
-{% include JB/setup %}
+
 
 Crime Stoppers are offering up to $3,000 for information leading to the arrest of the person(s) responsible for the disappearance of Lisa "Noodles" Hayden.
 

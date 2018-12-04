@@ -2,10 +2,10 @@
 layout: post
 title: "Printable Flyer"
 description: "Download and print 'Missing' flyers to help spread the word"
-category: 
+category:
 tags: []
 ---
-{% include JB/setup %}
+
 
 **Update**: please use the [updated flyer][newflyer] instead.
 

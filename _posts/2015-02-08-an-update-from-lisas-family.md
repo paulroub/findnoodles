@@ -5,7 +5,7 @@ description: "Words of thanks, and notes on the ongoing search."
 category: 
 tags: []
 ---
-{% include JB/setup %}
+
 
 Lisa's sister Tara shared this on Facebook today:
 

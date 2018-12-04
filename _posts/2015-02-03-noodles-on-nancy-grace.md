@@ -5,7 +5,7 @@ description: Nancy Grace segment on missing Lisa "Noodles" Hayden
 category: 
 tags: []
 ---
-{% include JB/setup %}
+
 
 <iframe width="416" height="384" src="http://www.hlntv.com/embed/140511" frameborder="0" allowfullscreen scrolling="no"></iframe>
 

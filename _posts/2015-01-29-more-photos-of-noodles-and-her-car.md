@@ -6,7 +6,7 @@ socialimage: http://findnoodles.com/i/hood.jpg
 category: 
 tags: []
 ---
-{% include JB/setup %}
+
 
 Lisa "Noodles on Jupiter" Hayden is still missing, as is her car - a 2003 Hyundai with stickers on the hood and bumper, Florida license plate __303 IEQ__.
 

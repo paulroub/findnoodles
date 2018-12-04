@@ -6,7 +6,7 @@ socialimage: "http://www.trbimg.com/img-54cc1516/turbine/fl-lauderdale-missing-w
 category: 
 tags: []
 ---
-{% include JB/setup %}
+
 
 [![][pic]][article]
 

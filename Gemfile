@@ -5,5 +5,5 @@ source "https://rubygems.org"
 gem "jekyll"
 gem "sass"
 gem "scss_lint"
-gem "redcarpet"
-
+gem "minima"
+gem "jekyll-seo-tag"

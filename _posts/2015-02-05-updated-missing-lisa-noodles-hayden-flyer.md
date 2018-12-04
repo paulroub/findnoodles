@@ -5,7 +5,7 @@ description: An updated, printable 'Missing' flyer for Lisa 'Noodles' Hayden
 category: 
 tags: []
 ---
-{% include JB/setup %}
+
 
 **Update**: please use the [updated flyer][newflyer] instead.
 

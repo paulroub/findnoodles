@@ -5,7 +5,7 @@ description: "Esplanade Park, 400 Southwest 2nd Street, Fort Lauderdale, FL"
 category:
 tags: []
 ---
-{% include JB/setup %}
+
 
 5:30 pm Friday January 30th across from the discovery center in downtown Fort Lauderdale.
 
